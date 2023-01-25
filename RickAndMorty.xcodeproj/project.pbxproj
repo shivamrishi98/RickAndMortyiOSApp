@@ -18,6 +18,8 @@
 		96018ED5297E504E008639AF /* RMCharacterListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96018ED4297E504E008639AF /* RMCharacterListViewViewModel.swift */; };
 		96018ED7297E50F8008639AF /* RMCharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96018ED6297E50F8008639AF /* RMCharacterListView.swift */; };
 		96018ED9297E57FD008639AF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96018ED8297E57FD008639AF /* Extensions.swift */; };
+		96018EDB2980CB0A008639AF /* RMCharacterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96018EDA2980CB0A008639AF /* RMCharacterCollectionViewCell.swift */; };
+		96018EDD2980CBD1008639AF /* RMCharacterCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96018EDC2980CBD1008639AF /* RMCharacterCollectionViewCellViewModel.swift */; };
 		963FB4CF29780AA200827F08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963FB4CE29780AA200827F08 /* AppDelegate.swift */; };
 		963FB4D129780AA200827F08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963FB4D029780AA200827F08 /* SceneDelegate.swift */; };
 		963FB4D329780AA200827F08 /* RMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963FB4D229780AA200827F08 /* RMTabBarController.swift */; };
@@ -44,6 +46,8 @@
 		96018ED4297E504E008639AF /* RMCharacterListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterListViewViewModel.swift; sourceTree = "<group>"; };
 		96018ED6297E50F8008639AF /* RMCharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterListView.swift; sourceTree = "<group>"; };
 		96018ED8297E57FD008639AF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		96018EDA2980CB0A008639AF /* RMCharacterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterCollectionViewCell.swift; sourceTree = "<group>"; };
+		96018EDC2980CBD1008639AF /* RMCharacterCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
 		963FB4CB29780AA200827F08 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		963FB4CE29780AA200827F08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		963FB4D029780AA200827F08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				96018ED6297E50F8008639AF /* RMCharacterListView.swift */,
+				96018EDA2980CB0A008639AF /* RMCharacterCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				96018ED4297E504E008639AF /* RMCharacterListViewViewModel.swift */,
+				96018EDC2980CBD1008639AF /* RMCharacterCollectionViewCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -277,6 +283,7 @@
 				963FB4EE29780EB400827F08 /* RMEpisode.swift in Sources */,
 				963FB4D329780AA200827F08 /* RMTabBarController.swift in Sources */,
 				963FB4F529780F3B00827F08 /* RMEpisodeViewController.swift in Sources */,
+				96018EDB2980CB0A008639AF /* RMCharacterCollectionViewCell.swift in Sources */,
 				96018ED5297E504E008639AF /* RMCharacterListViewViewModel.swift in Sources */,
 				963FB4CF29780AA200827F08 /* AppDelegate.swift in Sources */,
 				963FB4D129780AA200827F08 /* SceneDelegate.swift in Sources */,
@@ -286,6 +293,7 @@
 				963FB4EA29780EA600827F08 /* RMLocation.swift in Sources */,
 				96018ED7297E50F8008639AF /* RMCharacterListView.swift in Sources */,
 				96018EC72978E52E008639AF /* RMEndpoint.swift in Sources */,
+				96018EDD2980CBD1008639AF /* RMCharacterCollectionViewCellViewModel.swift in Sources */,
 				963FB4EC29780EAD00827F08 /* RMCharacter.swift in Sources */,
 				96018EC52978E433008639AF /* RMRequest.swift in Sources */,
 				963FB4F129780F2900827F08 /* RMCharacterViewController.swift in Sources */,
